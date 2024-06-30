@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+p {
+    border: 5px double black;
+    color: yellow;
+    font-size: 30px;
+}
+
+b {
+    font-size: 35px;
+}

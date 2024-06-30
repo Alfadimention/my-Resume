@@ -1,0 +1,174 @@
+.Top_Bar {
+    background-color: rgb(60, 60, 60);
+    border: 5px solid black;
+    color: white;
+    top: 0px;
+    height: 50px;
+    padding: 5px;
+}
+
+button[id="T_B Home"] {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    height: 50px;
+    position: absolute;
+    left: 700px;
+}
+
+button[id="Menu"] {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    height: 50px;
+}
+
+.Side_Bar {
+    background-color: rgb(100, 100, 100);
+    color: white;
+    position: relative;
+    width: 1px;
+    height: 1px;
+    transition: all 0.5s ease;
+}
+
+button[id="Sign in"] {
+    display: none;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-size: 16px;
+    position: relative;
+    height: 40px;
+    width: 200px;
+    text-align: left;
+    transition: all 0.5s ease;
+}
+
+button[id="Contact me"] {
+    display: none;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-size: 16px;
+    position: relative;
+    height: 40px;
+    width: 200px;
+    text-align: left;
+    transition: all 0.5s ease;
+}
+
+.Resume {
+    background-color: rgb(40, 40, 40);
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 100%;
+}
+
+.image_box {
+    background-color: transparent;
+    border: 5px dotted black;
+    overflow: hidden;
+    width: 298px;
+    height: 400px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.image_box img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+h1 {
+    /* background-color: rgb(100, 100, 100); */
+    border: 5px dotted black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 298px;
+    height: 40px;
+    position: absolute;
+    top: 392px;
+    left: 10px;
+}
+
+p[id="position"] {
+        background-color: rgb(100, 100, 100);
+        border: 5px double black;
+        color: white;
+        font-size: 28px;
+        position: absolute;
+        top: 10px;
+        left: 350px;
+        animation-name: none;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+}
+
+p[id="programming experties"] {
+    background-color: rgb(100, 100, 100);
+    border: 5px double black;
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    animation-name: none;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+p[id="future plans"] {
+    background-color: rgb(100, 100, 100);
+    border: 5px double black;
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    top: 220px;
+    left: 350px;
+    animation-name: none;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+button[id="rainbow_gray"] {
+    background-color: rgb(100, 100, 100);
+    border: 5px double black;
+    font-size: 34px;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    animation-name: rainbow_text;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes rainbow_text {
+    0% {color: red;}
+    14% {color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    57% {color: blue;}
+    71% {color: indigo;}
+    85% {color: violet;}
+    100% {color: red;}
+}
+
+@keyframes rainbow_background {
+    0% { background-color: red; transform: translateX(0px);}
+    14% { background-color: orange; transform: translateX(100px);}
+    28% { background-color: yellow; transform: translateX(100px);}
+    42% { background-color: green; transform: translateX(100px);}
+    57% { background-color: blue; transform: translateX(-100px);}
+    71% { background-color: indigo; transform: translateX(-100px);}
+    85% { background-color: violet; transform: translateX(-100px);}
+    100% { background-color: red; transform: translateX(0px);}
+    from {left:350px;}
+    to {left:600px;}
+    }
